@@ -6,7 +6,7 @@
 /*   By: susharma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/11 19:18:25 by susharma          #+#    #+#             */
-/*   Updated: 2018/01/11 21:12:17 by susharma         ###   ########.fr       */
+/*   Updated: 2018/01/12 17:10:29 by susharma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int x;
 	int y;
+
 	x = *a;
 	y = *b;
 	*a = x / y;
